@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.portfolio-table {
+    width: 85%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.introduction {
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.gallery {
+    padding: 20px;
+}
+
+.gallery-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.gallery-table img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-table td {
+    padding: 10px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.skills-contact {
+    background-color: #f4f4f4;
+}
+
+.skills {
+    width: 30%;
+    padding: 20px;
+    vertical-align: top;
+    background-color: #fff;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills ul li {
+    background-color: #e2e2e2;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contact {
+    width: 70%;
+    padding: 20px;
+    text-align: left;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+    </style>
+</head>
+<body>
+    <table class="portfolio-table">
+        <!-- Header Row -->
+        <tr class="header">
+            <td colspan="3">
+                <h1>My Portfolio</h1>
+                <p>Welcome to my personal portfolio website!</p>
+            </td>
+        </tr>
+        <!-- Introduction Row -->
+        <tr class="introduction">
+            <td colspan="3">
+                <h2>About Me</h2>
+                <p>Hello! I'm [Your Name], a web developer with a passion for building clean, functional websites.</p>
+            </td>
+        </tr>
+        <!-- Portfolio Gallery Row -->
+        <tr class="gallery">
+            <td colspan="3">
+                <h2>My Work</h2>
+                <table class="gallery-table">
+                    <tr>
+                        <td><img src="project1.jpg" alt="Project 1"></td>
+                        <td><img src="project2.jpg" alt="Project 2"></td>
+                        <td><img src="project3.jpg" alt="Project 3"></td>
+                    </tr>
+                    <tr>
+                        <td><p>Project 1 Description</p></td>
+                        <td><p>Project 2 Description</p></td>
+                        <td><p>Project 3 Description</p></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <!-- Skills and Contact Row -->
+        <tr class="skills-contact">
+            <td class="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML & CSS</li>
+                    <li>JavaScript</li>
+                    <li>React.js</li>
+                    <li>Node.js</li>
+                </ul>
+            </td>
+            <td class="contact" colspan="2">
+                <h2>Contact Me</h2>
+                <p>Email: your.email@example.com</p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile/">yourprofile</a></p>
+            </td>
+        </tr>
+        <!-- Footer Row -->
+        <tr class="footer">
+            <td colspan="3">
+                <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
